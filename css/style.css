@@ -205,8 +205,9 @@ form {
 }
 
 form .title {
-    font-size: 35px;
+    font-size: 3vw;
     margin-bottom: 50px;
+    padding: 10px;
 }
 
 main .inputContainer {
@@ -265,11 +266,16 @@ main .input:focus {
 
 /*Страница "Курсы"*/
 .section-courses__inner-item img {
-    width: 300px;
-    height: 250px;
+    max-width: 95%;
+    width: auto;
+    margin: 15px;
+    border-radius: 20px;
+    filter: brightness(80%);
 }
 
 .section-courses__inner-item {
+    max-width: 75%;
+    width: auto;
     width: 300px;
     background-color: #8a96ff;
     color: white;
@@ -301,7 +307,8 @@ main .input:focus {
 }
 
 .cource__btn {
-    width: 200px;
+    max-width: 80%;
+    width: auto;
     height: 50px;
     background-color: #9adb35;
     margin: 20px auto;
@@ -360,8 +367,9 @@ main .input:focus {
     }
 
     .header__info-main {
-        width: 350px;
-        margin: 40px 0px 0px 0px;
+        max-width: 95%;
+        width: auto;
+        margin: 0 auto;
     }
 
     .header__main-info img {
@@ -370,7 +378,8 @@ main .input:focus {
     }
 
     .header__main-info {
-        margin: 0;
+        width: auto;
+        margin: 0 auto;
     }
 
     .header__name {
@@ -380,9 +389,11 @@ main .input:focus {
     }
 
     .header__info-text {
-        font-size: 15px;
+        width: 90%;
+        font-size: 12px;
         text-align: justify;
         text-indent: 20px;
+        margin: 0 auto;
     }
 
     .header__main-info {
@@ -953,7 +964,6 @@ main .input:focus {
 
     /*страница регистрации*/
     form .title {
-        font-size: 18px;
         padding: 0;
     }
 
@@ -1109,7 +1119,7 @@ main .input:focus {
 
     /*страница регистрации*/
     form .title {
-        font-size: 18px;
+        font-size: 3.5vw;
         padding: 0;
     }
 
